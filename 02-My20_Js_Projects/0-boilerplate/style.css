@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700&display=swap');
+
+/**defining css variables with --*/
+:root{      /*root scope meaning accessible anywhere*/  
+    --success-color:#2ecc71;;
+    --error-color:#e74c3c;
+}
+
+*{
+    box-sizing: border-box;  /*now any padding wont affect width of the element*/
+}
+
+body{
+    background-color: #f9fafb;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;      /*100vh or more*/
+    margin: 0;
+}
+
+.container{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.3);
+    width: 400px;
+}
